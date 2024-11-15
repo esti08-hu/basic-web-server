@@ -2,10 +2,7 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
-
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+  <p align="center">A simple web server using the <a href="http://nodejs.org" target="_blank">Node.js</a> framework <a href="http://nestjs.com/" target="_blank">NestJS</a> for serving static messages on three routes.</p>
     <p align="center">
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
 <a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
@@ -13,61 +10,63 @@
 <a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
 <a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
 <a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
   <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
 </p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This is a basic web server built with the [NestJS](https://nestjs.com/) framework. It has three routes that respond with static messages:
+
+- `/name` - Returns your full name as plain text.
+- `/hobby` - Returns your favorite hobby in JSON format.
+- `/dream` - Returns a motivational message about your dream or goal in life.
 
 ## Installation
 
-```bash
-$ pnpm install
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://git@github.com:esti08-hu/Setting-Up-a-Basic-Web-Server.git
+   cd simple-web-server
+   ```
 
-## Running the app
+2. **Install dependencies**:
+   ```bash
+   pnpm install
+   ```
+
+## Running the Server
 
 ```bash
-# development
+# Development
 $ pnpm run start
 
-# watch mode
+# Watch mode
 $ pnpm run start:dev
 
-# production mode
+# Production mode
 $ pnpm run start:prod
 ```
 
-## Test
+## Routes
 
-```bash
-# unit tests
-$ pnpm run test
+- **GET /name**: Returns your name as a plain text message.
+- **GET /hobby**: Returns a JSON object with a hobby field.
+- **GET /dream**: Returns a motivational message in plain text.
 
-# e2e tests
-$ pnpm run test:e2e
+## Deployment
 
-# test coverage
-$ pnpm run test:cov
-```
+This server is deployed and accessible online at: [Live Server URL](https://your-live-server-link.com)
+
+For instructions on deploying a NestJS server, refer to the [NestJS deployment documentation](https://docs.nestjs.com/faq/deployment).
 
 ## Support
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+Nest is an MIT-licensed open-source project. It grows with the support of sponsors and contributors. [Learn more here](https://docs.nestjs.com/support).
 
-## Stay in touch
+## Author
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- [Estifanos Ameha](https://github.com/yourusername)
 
 ## License
 
-Nest is [MIT licensed](LICENSE).
+This project is [MIT licensed](LICENSE).
