@@ -25,8 +25,8 @@ This is a basic web server built with the [NestJS](https://nestjs.com/) framewor
 
 1. **Clone the repository**:
    ```bash
-   git clone https://git@github.com:esti08-hu/Setting-Up-a-Basic-Web-Server.git
-   cd simple-web-server
+   git clone https://git@github.com:esti08-hu/basic-web-server.git
+   cd basic-web-server
    ```
 
 2. **Install dependencies**:
