@@ -65,7 +65,7 @@ Nest is an MIT-licensed open-source project. It grows with the support of sponso
 
 ## Author
 
-- [Estifanos Ameha](https://github.com/yourusername)
+- [Estifanos Ameha](https://github.com/esti08-hu)
 
 ## License
 
